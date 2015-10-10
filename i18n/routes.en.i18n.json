@@ -25,6 +25,54 @@
       "new": "create account",
       "show": "show account"
     },
+    "dashboards": {
+      "delete": "delete dashboard",
+      "edit": "edit dashboard",
+      "home": "dashboards home",
+      "list": "dashboards list",
+      "new": "create dashboard",
+      "show": "show dashboard"
+    },
+    "accounts": {
+      "delete": "delete account",
+      "edit": "edit account",
+      "home": "accounts home",
+      "list": "accounts list",
+      "new": "create account",
+      "show": "show account"
+    },
+    "settings": {
+      "delete": "delete setting",
+      "edit": "edit setting",
+      "home": "settings home",
+      "list": "settings list",
+      "new": "create setting",
+      "show": "show setting"
+    },
+    "groups": {
+      "delete": "delete group",
+      "edit": "edit group",
+      "home": "groups home",
+      "list": "groups list",
+      "new": "create group",
+      "show": "show group"
+    },
+    "areas": {
+      "delete": "delete area",
+      "edit": "edit area",
+      "home": "areas home",
+      "list": "areas list",
+      "new": "create area",
+      "show": "show area"
+    },
+    "categories": {
+      "delete": "delete category",
+      "edit": "edit category",
+      "home": "categories home",
+      "list": "categories list",
+      "new": "create category",
+      "show": "show category"
+    },
     "AUTOMATICALLY": {}
   }
 }

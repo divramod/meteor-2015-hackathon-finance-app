@@ -1,0 +1,5 @@
+<!-- accountsEdit -->
+<template name="accountsEdit">
+  <h1>Hello accountsEdit</h1>
+  {{> accountsUpdate}}
+</template>

@@ -1,0 +1,4 @@
+<!-- accountsReadOnly -->
+<template name='accountsReadOnly'>
+  {{> quickForm collection="accounts" schema="accountsSchema" doc=this id="accountsReadOnlyForm" type="readonly"}}
+</template>
