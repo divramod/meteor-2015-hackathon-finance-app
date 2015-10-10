@@ -73,6 +73,22 @@
       "new": "create category",
       "show": "show category"
     },
+    "reports": {
+      "delete": "delete report",
+      "edit": "edit report",
+      "home": "reports home",
+      "list": "reports list",
+      "new": "create report",
+      "show": "show report"
+    },
+    "bookings": {
+      "delete": "delete booking",
+      "edit": "edit booking",
+      "home": "bookings home",
+      "list": "bookings list",
+      "new": "create booking",
+      "show": "show booking"
+    },
     "AUTOMATICALLY": {}
   }
 }

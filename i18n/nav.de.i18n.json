@@ -36,6 +36,14 @@
       "plural": "Kategorien",
       "singular": "Kategorie"
     },
+    "reports": {
+      "plural": "Reports",
+      "singular": "Report"
+    },
+    "bookings": {
+      "plural": "Buchungen",
+      "singular": "Buchung"
+    },
     "AUTOMATICALLY": {}
   },
   "navmain": {

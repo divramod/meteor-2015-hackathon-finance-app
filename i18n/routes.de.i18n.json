@@ -73,6 +73,22 @@
       "new": "Kategorie erstellen",
       "show": "Kategorie betrachten"
     },
+    "reports": {
+      "delete": "Report löschen",
+      "edit": "Report bearbeiten",
+      "home": "Startseite Reports",
+      "list": "Liste der Reports",
+      "new": "Report erstellen",
+      "show": "Report betrachten"
+    },
+    "bookings": {
+      "delete": "Buchung löschen",
+      "edit": "Buchung bearbeiten",
+      "home": "Startseite Buchungen",
+      "list": "Liste der Buchungen",
+      "new": "Buchung erstellen",
+      "show": "Buchung betrachten"
+    },
     "AUTOMATICALLY": {}
   }
 }

@@ -1,4 +1,13 @@
 <!-- accounts insert -->
 <template name='accountsInsert'>
-  {{> quickForm collection="accounts" schema="accountsSchema" id="accountsInsertForm" type="method" meteormethod="accountsInsert"}}
+   {{#autoForm collection="accounts" schema="accountsSchema" id="accountsInsertForm" type="method" meteormethod="accountsInsert"}}
+  <fieldset>
+    <legend>Add an account</legend>
+    {{> afQuickField name='name'}}
+    {{> afQuickField type="select" name='type' options="allowed"}}
+  <button type="submit" class="btn btn-primary">Insert</button>
+  <hr>
+    </fieldset>
+
+  {{/autoForm}}
 </template>

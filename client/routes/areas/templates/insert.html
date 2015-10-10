@@ -1,4 +1,16 @@
 <!-- areas insert -->
 <template name='areasInsert'>
-  {{> quickForm collection="areas" schema="areasSchema" id="areasInsertForm" type="method" meteormethod="areasInsert"}}
+
+{{#autoForm collection="areas" schema="areasSchema" id="areasInsertForm" type="method" meteormethod="areasInsert"}}
+  <fieldset>
+    <legend>Add an Area</legend>
+    {{> afQuickField name='name'}}
+    {{> afQuickField name='icon'}}
+    <p><strong>Group</strong></p>
+    {{> afFieldInput type='select' name='group' options=groupOptions}}
+  </fieldset><br>
+  <button type="submit" class="btn btn-primary">Insert</button>
+  <hr>
+  {{/autoForm}}
+  
 </template>
