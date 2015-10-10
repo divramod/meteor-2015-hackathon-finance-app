@@ -1,4 +1,14 @@
 <!-- transactionsHome -->
 <template name="transactionsHome">
-    Category Swipe
+
+  {{#HammerTouchArea gestureMap=templateGestures}}
+    <div class="swipeElement">
+      <ul>
+        {{#each categories}}
+          <li class="categoryElement">{{name}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  {{/HammerTouchArea}}
+
 </template>
