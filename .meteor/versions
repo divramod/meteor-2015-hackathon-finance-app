@@ -21,6 +21,7 @@ caching-html-compiler@1.0.2
 callback-hook@1.0.4
 cfs:http-methods@0.0.30
 check@1.0.6
+chriswessels:hammer@4.0.2
 coffeescript@1.0.10
 d3js:d3@3.5.5
 ddp@1.2.2
