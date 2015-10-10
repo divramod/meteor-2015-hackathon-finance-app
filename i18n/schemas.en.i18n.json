@@ -54,6 +54,12 @@
         "placeholder": "Please insert the title!"
       }
     },
+    "bookings": {
+      "title": {
+        "label": "title",
+        "placeholder": "Please insert the title!"
+      }
+    },
     "AUTOMATICALLY": {}
   }
 }
