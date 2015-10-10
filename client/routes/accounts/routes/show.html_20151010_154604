@@ -1,0 +1,5 @@
+<!-- accountsShow -->
+<template name="accountsShow">
+  <h1>Hello accountsShow</h1>
+  {{> accountsReadOnly}}
+</template>

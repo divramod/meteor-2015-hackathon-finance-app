@@ -1,0 +1,4 @@
+<!-- accounts insert -->
+<template name='accountsInsert'>
+  {{> quickForm collection="accounts" schema="accountsSchema" id="accountsInsertForm" type="method" meteormethod="accountsInsert"}}
+</template>

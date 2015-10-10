@@ -1,0 +1,5 @@
+<!-- accountsNew -->
+<template name="accountsNew">
+  <h1>Hello accountsNew</h1>
+  {{> accountsInsert}}
+</template>

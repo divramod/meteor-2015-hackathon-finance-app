@@ -12,6 +12,42 @@
         "placeholder": "Bitte geben Sie den Title ein!"
       }
     },
+    "dashboards": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "Bitte geben Sie den Title ein!"
+      }
+    },
+    "accounts": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "Bitte geben Sie den Title ein!"
+      }
+    },
+    "settings": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "Bitte geben Sie den Title ein!"
+      }
+    },
+    "groups": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "Bitte geben Sie den Title ein!"
+      }
+    },
+    "areas": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "Bitte geben Sie den Title ein!"
+      }
+    },
+    "categories": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "Bitte geben Sie den Title ein!"
+      }
+    },
     "AUTOMATICALLY": {}
   }
 }

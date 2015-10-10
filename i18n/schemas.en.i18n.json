@@ -12,6 +12,42 @@
         "placeholder": "Please insert the title!"
       }
     },
+    "dashboards": {
+      "title": {
+        "label": "title",
+        "placeholder": "Please insert the title!"
+      }
+    },
+    "accounts": {
+      "title": {
+        "label": "title",
+        "placeholder": "Please insert the title!"
+      }
+    },
+    "settings": {
+      "title": {
+        "label": "title",
+        "placeholder": "Please insert the title!"
+      }
+    },
+    "groups": {
+      "title": {
+        "label": "title",
+        "placeholder": "Please insert the title!"
+      }
+    },
+    "areas": {
+      "title": {
+        "label": "title",
+        "placeholder": "Please insert the title!"
+      }
+    },
+    "categories": {
+      "title": {
+        "label": "title",
+        "placeholder": "Please insert the title!"
+      }
+    },
     "AUTOMATICALLY": {}
   }
 }
