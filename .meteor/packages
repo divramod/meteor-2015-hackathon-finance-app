@@ -1,0 +1,40 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+iron:router
+less
+twbs:bootstrap
+fortawesome:fontawesome
+accounts-password
+accounts-ui
+aldeed:autoform
+aldeed:collection2
+d3js:d3
+meteorhacks:npm
+
+
+npm-container
+tap:i18n
+tap:i18n-ui
+tap:i18n-db
+aldeed:tabular
+tap:i18n-bundler
+udondan:slick
+gwendall:autoform-i18n

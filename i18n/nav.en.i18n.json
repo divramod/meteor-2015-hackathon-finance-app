@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "home": {
+      "plural": "homes",
+      "singular": "home"
+    },
+    "transactions": {
+      "plural": "transactions",
+      "singular": "transaction"
+    },
+    "accounts": {
+      "plural": "accounts",
+      "singular": "account"
+    },
+    "AUTOMATICALLY": {}
+  },
+  "navmain": {
+    "test": "test",
+    "dynamicData": "dynamic data",
+    "referenceData": "meta data",
+    "settings": "settings"
+  }
+}

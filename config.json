@@ -1,0 +1,7 @@
+{
+    "version": "0.0.1",
+    "server": "finance-app",
+    "buildDestination": "app_build",
+    "keyPath": "/home/mod/.keystore/finance-app",
+    "alias": "fa"
+}

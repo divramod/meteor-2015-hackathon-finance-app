@@ -1,0 +1,11 @@
+<!-- navigation dynamic data  -->
+<template name="navigationDynamicData">
+  <!-- dynamic data -->
+  <li class="dropdown"> <a href="" class="dropdown-toggle" data-toggle="dropdown">{{_ 'navmain.dynamicData'}}<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+      <li class="{{isActive 'Transactions'}}"><a href="{{pathFor 'transactions'}}">{{_ 'nav.transactions.plural'}}</a></li>
+      <li class="{{isActive 'Accounts'}}"><a href="{{pathFor 'accounts'}}">{{_ 'nav.accounts.plural'}}</a></li>
+      <!-- AUTOMATICALLY ADD HERE -->
+    </ul>
+  </li>
+</template>

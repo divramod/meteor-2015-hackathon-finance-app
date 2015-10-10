@@ -1,0 +1,30 @@
+{
+  "routes": {
+    "home": {
+      "delete": "delete home",
+      "edit": "edit home",
+      "home": "homes home",
+      "list": "homes list",
+      "new": "create home",
+      "show": "show home"
+    },
+    "transactions": {
+      "delete": "delete transaction",
+      "edit": "edit transaction",
+      "home": "transactions home",
+      "list": "transactions list",
+      "new": "create transaction",
+      "show": "show transaction",
+      "book": "book"
+    },
+    "accounts": {
+      "delete": "delete account",
+      "edit": "edit account",
+      "home": "accounts home",
+      "list": "accounts list",
+      "new": "create account",
+      "show": "show account"
+    },
+    "AUTOMATICALLY": {}
+  }
+}

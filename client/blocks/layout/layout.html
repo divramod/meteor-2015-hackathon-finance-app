@@ -1,0 +1,12 @@
+<template name="layout">
+  <!-- http://stackoverflow.com/questions/20863288/bootstrap-3-slide-in-menu-navbar-on-mobile -->
+  {{> header}}
+  <!--wrap the page content do not style this-->
+  <div id="page-content">
+    <div class="container">
+      {{> yield}}
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /#page-content -->
+</template>

@@ -1,0 +1,17 @@
+{
+  "schemas": {
+    "transactions": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "Bitte geben Sie den Title ein!"
+      }
+    },
+    "accounts": {
+      "title": {
+        "label": "Titel",
+        "placeholder": "Bitte geben Sie den Title ein!"
+      }
+    },
+    "AUTOMATICALLY": {}
+  }
+}

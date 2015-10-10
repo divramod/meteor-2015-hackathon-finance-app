@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "home": {
+      "plural": "Startseiten",
+      "singular": "Startseite"
+    },
+    "transactions": {
+      "plural": "Transaktionen",
+      "singular": "Transaktion"
+    },
+    "accounts": {
+      "plural": "Konten",
+      "singular": "Konto"
+    },
+    "AUTOMATICALLY": {}
+  },
+  "navmain": {
+    "test": "Tests",
+    "dynamicData": "dynamische Daten",
+    "referenceData": "Stammdaten",
+    "settings": "Einstellungen"
+  }
+}
