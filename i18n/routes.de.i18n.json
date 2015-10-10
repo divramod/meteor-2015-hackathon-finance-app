@@ -73,6 +73,14 @@
       "new": "Kategorie erstellen",
       "show": "Kategorie betrachten"
     },
+    "reports": {
+      "delete": "Report löschen",
+      "edit": "Report bearbeiten",
+      "home": "Startseite Reports",
+      "list": "Liste der Reports",
+      "new": "Report erstellen",
+      "show": "Report betrachten"
+    },
     "AUTOMATICALLY": {}
   }
 }
