@@ -1,4 +1,13 @@
 <!-- areasUpdate  -->
 <template name="areasUpdate">
-  {{> quickForm collection="areas" schema="areasSchema" doc=this id="areasUpdateForm" type="method-update" meteormethod="areasUpdate"}}
+{{#autoForm collection="areas" schema="areasSchema" doc=this id="areasUpdateForm" type="method-update" meteormethod="areasUpdate"}}
+  <fieldset>
+    <legend>Update an Area</legend>
+    {{> afQuickField name='name'}}
+    {{> afQuickField name='icon'}}
+    {{> afFieldInput type='select' name='group' options=groupOptions}}
+  </fieldset><br>
+  <button type="submit" class="btn btn-primary">Insert</button>
+  <hr>
+  {{/autoForm}}
 </template>
