@@ -1,0 +1,6 @@
+<!-- accountsHome -->
+<template name="accountsHome">
+  <h1>Hello accountsHome</h1>
+  {{> accountsInsert}}
+  {{> accountsFind}}
+</template>

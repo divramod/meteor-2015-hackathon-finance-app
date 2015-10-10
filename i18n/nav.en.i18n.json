@@ -12,6 +12,30 @@
       "plural": "accounts",
       "singular": "account"
     },
+    "dashboards": {
+      "plural": "dashboards",
+      "singular": "dashboard"
+    },
+    "accounts": {
+      "plural": "accounts",
+      "singular": "account"
+    },
+    "settings": {
+      "plural": "settings",
+      "singular": "setting"
+    },
+    "groups": {
+      "plural": "groups",
+      "singular": "group"
+    },
+    "areas": {
+      "plural": "areas",
+      "singular": "area"
+    },
+    "categories": {
+      "plural": "categories",
+      "singular": "category"
+    },
     "AUTOMATICALLY": {}
   },
   "navmain": {

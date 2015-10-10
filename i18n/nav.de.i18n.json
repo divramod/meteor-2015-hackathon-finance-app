@@ -12,6 +12,30 @@
       "plural": "Konten",
       "singular": "Konto"
     },
+    "dashboards": {
+      "plural": "Übersichten",
+      "singular": "Übersicht"
+    },
+    "accounts": {
+      "plural": "Konten",
+      "singular": "Konto"
+    },
+    "settings": {
+      "plural": "Einstellungen",
+      "singular": "Einstellung"
+    },
+    "groups": {
+      "plural": "Gruppen",
+      "singular": "Gruppe"
+    },
+    "areas": {
+      "plural": "Bereiche",
+      "singular": "Bereich"
+    },
+    "categories": {
+      "plural": "Kategorien",
+      "singular": "Kategorie"
+    },
     "AUTOMATICALLY": {}
   },
   "navmain": {

@@ -25,6 +25,54 @@
       "new": "Konto erstellen",
       "show": "Konto betrachten"
     },
+    "dashboards": {
+      "delete": "Übersicht löschen",
+      "edit": "Übersicht bearbeiten",
+      "home": "Startseite Übersichten",
+      "list": "Liste der Übersichten",
+      "new": "Übersicht erstellen",
+      "show": "Übersicht betrachten"
+    },
+    "accounts": {
+      "delete": "Konto löschen",
+      "edit": "Konto bearbeiten",
+      "home": "Startseite Konten",
+      "list": "Liste der Konten",
+      "new": "Konto erstellen",
+      "show": "Konto betrachten"
+    },
+    "settings": {
+      "delete": "Einstellung löschen",
+      "edit": "Einstellung bearbeiten",
+      "home": "Startseite Einstellungen",
+      "list": "Liste der Einstellungen",
+      "new": "Einstellung erstellen",
+      "show": "Einstellung betrachten"
+    },
+    "groups": {
+      "delete": "Gruppe löschen",
+      "edit": "Gruppe bearbeiten",
+      "home": "Startseite Gruppen",
+      "list": "Liste der Gruppen",
+      "new": "Gruppe erstellen",
+      "show": "Gruppe betrachten"
+    },
+    "areas": {
+      "delete": "Bereich löschen",
+      "edit": "Bereich bearbeiten",
+      "home": "Startseite Bereiche",
+      "list": "Liste der Bereiche",
+      "new": "Bereich erstellen",
+      "show": "Bereich betrachten"
+    },
+    "categories": {
+      "delete": "Kategorie löschen",
+      "edit": "Kategorie bearbeiten",
+      "home": "Startseite Kategorien",
+      "list": "Liste der Kategorien",
+      "new": "Kategorie erstellen",
+      "show": "Kategorie betrachten"
+    },
     "AUTOMATICALLY": {}
   }
 }
