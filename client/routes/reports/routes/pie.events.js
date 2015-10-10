@@ -50,13 +50,19 @@ Template.reportsHome.rendered = function(){
   // data to our existing data, like 
   // the start angle and end angle
   // for each data element.
-  jhw_pie = d3.layout.pie()
-    jhw_pie.value(function (d, i) {
-      // Tells the layout function what
-      // property of our data object to
-      // use as the value.
-      return d.instances;
-    });
+  jhw_pie = d3.layout.pie();
+
+  jhw_pie.value(function (d, i) {
+    // Tells the layout function what
+    // property of our data object to
+    // use as the value.
+    return d.instances;
+  });
+
+  //jhw_pie.callbacks = {};
+  //jhw_pie.callbacks.onClickSegment = function() {
+  //console.log("test");
+  //};
 
   // Store our chart dimensions
   cDim = {
@@ -99,6 +105,10 @@ Template.reportsHome.rendered = function(){
     .attr("d", pied_arc)
     .style("fill", function (d, i) {
       return pied_colors(i);
+    }).on("click", function(e) {
+      console.log("test");
+      console.log(e);
+    
     });
 
   // Now we'll draw our label lines, etc.
@@ -201,6 +211,7 @@ Template.reportsHome.rendered = function(){
         db.attr("y",+y2 - adjust);
       });
     });
+
     // Adjust our line leaders here
     // so that they follow the labels. 
     if(again) {
@@ -213,8 +224,9 @@ Template.reportsHome.rendered = function(){
     }
   }
 
+  svg.on("click", function(d) {
+    console.log(d);
+  });
+
   relax();
-
-
-
 };
