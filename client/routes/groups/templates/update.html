@@ -1,4 +1,13 @@
 <!-- groupsUpdate  -->
 <template name="groupsUpdate">
-  {{> quickForm collection="groups" schema="groupsSchema" doc=this id="groupsUpdateForm" type="method-update" meteormethod="groupsUpdate"}}
+    <fieldset>
+
+ {{#autoForm collection="groups" schema="groupsSchema" doc=this id="groupsUpdateForm" type="method-update" meteormethod="groupsUpdate"}}
+
+    <legend>Update a Group</legend>
+    {{> afQuickField name='name'}}
+
+  <button type="submit" class="btn btn-primary">Update</button>
+  {{/autoForm}}
+  </fieldset>
 </template>

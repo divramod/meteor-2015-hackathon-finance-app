@@ -1,4 +1,14 @@
 <!-- groups insert -->
 <template name='groupsInsert'>
-  {{> quickForm collection="groups" schema="groupsSchema" id="groupsInsertForm" type="method" meteormethod="groupsInsert"}}
+
+ {{#autoForm collection="groups" schema="groupsSchema" id="groupsInsertForm" type="method" meteormethod="groupsInsert"}}
+  <fieldset>
+    <legend>Add a Group</legend>
+    {{> afQuickField name='name'}}
+
+  <button type="submit" class="btn btn-primary">Insert</button>
+  <hr>
+    </fieldset>
+
+  {{/autoForm}}
 </template>
