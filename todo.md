@@ -1,6 +1,10 @@
 # Misc
+- http://geany.io
+- ynab app
 - no26
 - öffentliche und private kategorien
+- http://gini.io/
+- http://candis.io/
 
 #User Stories
 
