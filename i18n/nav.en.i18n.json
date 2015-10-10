@@ -40,6 +40,10 @@
       "plural": "reports",
       "singular": "report"
     },
+    "bookings": {
+      "plural": "bookings",
+      "singular": "booking"
+    },
     "AUTOMATICALLY": {}
   },
   "navmain": {

@@ -81,6 +81,14 @@
       "new": "create report",
       "show": "show report"
     },
+    "bookings": {
+      "delete": "delete booking",
+      "edit": "edit booking",
+      "home": "bookings home",
+      "list": "bookings list",
+      "new": "create booking",
+      "show": "show booking"
+    },
     "AUTOMATICALLY": {}
   }
 }

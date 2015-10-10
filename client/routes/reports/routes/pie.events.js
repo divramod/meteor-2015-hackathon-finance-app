@@ -24,15 +24,20 @@ Template.reportsHome.rendered = function(){
   //label: 'Lincoln',
   //instances: 1
   //}];
-  
-  var data = categories.find({}).fetch();
+
+  var fetchedData = categories.find({}).fetch();
+  //console.log(data);
+
+  var data = [];
+  for (var i = 0, l = fetchedData.length; i < l; i++) {
+    var v = fetchedData[i];
+    //console.log(v);
+    v.label = v.value + " " + 12;
+    v.instances = 12;
+    data.push(v);
+  }
   console.log(data);
 
-  for (var i = 0, l = data.length; i < l; i++) {
-    var v = data[i];
-    data[i].label = v.name;
-    data[i].instances = 12;
-  }
 
 
   svg = d3.select("svg");
