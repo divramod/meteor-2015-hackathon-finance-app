@@ -4,7 +4,7 @@ Template.categoriesUpdate.helpers({
 		array = []
 		result = areas.find()
 		result.forEach(function (area) {
-			array.push({label: area.title, value: area._id})
+			array.push({label: area.name, value: area._id})
 		});
 		return array;
 	}

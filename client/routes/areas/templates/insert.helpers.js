@@ -3,7 +3,7 @@ Template.areasInsert.helpers({
 		array = []
 		result = groups.find()
 		result.forEach(function (group) {
-			array.push({label: group.title, value: group._id})
+			array.push({label: group.name, value: group._id})
 		});
 		return array;
 	}

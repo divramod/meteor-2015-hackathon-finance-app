@@ -3,12 +3,14 @@
 {{#autoForm collection="categories" schema="categoriesSchema" id="categoriesInsertForm" type="method" meteormethod="categoriesInsert"}}
   <fieldset>
     <legend>Add an Category</legend>
-    {{> afQuickField name='value'}}
+    {{> afQuickField name='name'}}
     {{> afQuickField name='number'}}
     {{> afQuickField name='icon'}}
     {{> afQuickField name='active'}}
+    <p><strong>Area</strong></p>
     {{> afFieldInput type='select' name='areas' options=areaOptions}}
-  </fieldset>
+  </fieldset><br>
   <button type="submit" class="btn btn-primary">Insert</button>
+  <hr>
   {{/autoForm}}
 </template>
