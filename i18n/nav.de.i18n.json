@@ -36,6 +36,10 @@
       "plural": "Kategorien",
       "singular": "Kategorie"
     },
+    "reports": {
+      "plural": "Reports",
+      "singular": "Report"
+    },
     "AUTOMATICALLY": {}
   },
   "navmain": {

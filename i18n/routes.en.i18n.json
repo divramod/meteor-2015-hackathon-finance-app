@@ -73,6 +73,14 @@
       "new": "create category",
       "show": "show category"
     },
+    "reports": {
+      "delete": "delete report",
+      "edit": "edit report",
+      "home": "reports home",
+      "list": "reports list",
+      "new": "create report",
+      "show": "show report"
+    },
     "AUTOMATICALLY": {}
   }
 }
