@@ -1,16 +1,4 @@
 <!-- bookings insert -->
 <template name='bookingsInsert'>
-
-    {{#autoForm collection="bookings" schema="bookingsSchema" id="bookingsInsertForm" type="method" meteormethod="bookingsInsert"}}
-  <fieldset>
-    <legend>Add a Booking</legend>
-    {{> afQuickField name='factor'}}
-    <p><strong>Category ID</strong></p>
-    {{> afFieldInput type='select' name='cat_id' options=catOptions}}
-      <p><strong>Area ID</strong></p>
-    {{> afFieldInput type='select' name='area_id' options=areaOptions}}
-  </fieldset><br>
-  <button type="submit" class="btn btn-primary">Insert</button>
-  <hr>
-   {{/autoForm}}
+  {{> quickForm collection="bookings" schema="bookingsSchema" id="bookingsInsertForm" type="method" meteormethod="bookingsInsert"}}
 </template>
