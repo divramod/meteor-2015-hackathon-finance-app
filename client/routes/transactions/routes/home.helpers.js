@@ -15,22 +15,34 @@ Template.transactionsHome.helpers({
     'panleft div': function(event, templateInstance) {
       console.log('Go Next');
       $('.areasCarousel').carousel('next');
+      $('.areasCarousel').carousel({
+        interval: false
+      });
     },
 
     'panright div': function(event, TemplateInstance) {
       console.log('Go Back');
       $('.areasCarousel').carousel('prev');
+      $('.areasCarousel').carousel({
+  interval: false
+});
     }
   },
   templateGestures: {
     'panleft div': function(event, templateInstance) {
       console.log('Go Next');
       $('.categoriesCarousel').carousel('next');
+      $('.categoriesCarousel').carousel({
+  interval: false
+});
     },
 
     'panright div': function(event, TemplateInstance) {
       console.log('Go Back');
       $('.categoriesCarousel').carousel('prev');
+      $('.categoriesCarousel').carousel({
+  interval: false
+});
     }
   },
   categories: [{
