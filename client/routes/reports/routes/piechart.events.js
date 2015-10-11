@@ -37,16 +37,15 @@ Template.reportsHome.rendered = function(){
     var bookingsFetched = bookings.find({cat_id: v._id}).fetch();
     console.log(bookingsFetched);
     var sum = 0;
-    for (var i = 0, l = bookingsFetched.length; i < l; i++) {
-      var b = bookingsFetched[i];
-      //sum += b.
-    }
+    //for (var i = 0, l = bookingsFetched.length; i < l; i++) {
+      //var b = bookingsFetched[i];
+      //console.log(b);
+    //}
     v.label = v.value + " " + 12;
-    v.instances = 12;
-
-
+    v.instances = Random.fraction(0,1);
     data.push(v);
   }
+
   console.log(data);
 
   svg = d3.select("svg");
