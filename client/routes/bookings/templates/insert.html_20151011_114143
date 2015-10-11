@@ -9,8 +9,6 @@
     {{> afFieldInput type='select' name='cat_id' options=catOptions}}
       <p><strong>Area ID</strong></p>
     {{> afFieldInput type='select' name='area_id' options=areaOptions}}
-        <p><strong>TX ID</strong></p>
-    {{> afFieldInput type='select' name='area_id' options=transactionsOptions}}
   </fieldset><br>
   <button type="submit" class="btn btn-primary">Insert</button>
   <hr>

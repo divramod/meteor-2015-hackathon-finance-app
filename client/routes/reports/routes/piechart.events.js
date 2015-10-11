@@ -27,18 +27,26 @@ Template.reportsHome.rendered = function(){
 
   var fetchedData = categories.find({}).fetch();
   //console.log(data);
+  //
+
+  //var bookingsFetched = bookings.find({}).fetch();
 
   var data = [];
   for (var i = 0, l = fetchedData.length; i < l; i++) {
     var v = fetchedData[i];
-    //console.log(v);
+    var bookingsFetched = bookings.find({cat_id: v._id}).fetch();
+    console.log(bookingsFetched);
+    var sum = 0;
+    //for (var i = 0, l = bookingsFetched.length; i < l; i++) {
+      //var b = bookingsFetched[i];
+      //console.log(b);
+    //}
     v.label = v.value + " " + 12;
-    v.instances = 12;
+    v.instances = Random.fraction(0,1);
     data.push(v);
   }
+
   console.log(data);
-
-
 
   svg = d3.select("svg");
   canvas = d3.select("#canvas");
@@ -108,7 +116,7 @@ Template.reportsHome.rendered = function(){
     }).on("click", function(e) {
       console.log("test");
       console.log(e);
-    
+
     });
 
   // Now we'll draw our label lines, etc.

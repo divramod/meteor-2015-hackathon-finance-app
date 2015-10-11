@@ -2,8 +2,7 @@
 bookingsSchema = new SimpleSchema({
   factor: {
     type: Number,
-    optional: false,
-    decimal:true
+    optional: false
   },
   cat_id: {
     type: String,

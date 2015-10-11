@@ -1,0 +1,4 @@
+<!-- bookingsFind -->
+<template name='bookingsFind'>
+  {{> tabular table=TabularTables.bookings class="table table-striped table-bordered table-condensed display responsive no-wrap"}}
+</template>
