@@ -41,8 +41,10 @@ Template.reportsHome.rendered = function(){
       //var b = bookingsFetched[i];
       //console.log(b);
     //}
-    v.label = v.value + " " + 12;
-    v.instances = Random.fraction(0,1);
+    var number = Random.fraction(0,1);
+    console.log(v);
+    v.label = v.name;
+    v.instances = number;
     data.push(v);
   }
 
